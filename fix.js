@@ -1,0 +1,1 @@
+console.log(textinput.value);

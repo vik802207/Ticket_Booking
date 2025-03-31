@@ -1,0 +1,23 @@
+
+<script>
+    var count=0;
+    var total_price
+    var per=150;
+    var seats=document.getElementsByClassName("box");
+    for(var i=0;i<=500;i++){
+        var item=seats[i];
+        item.addEventListener("click",(event)=>{
+            if (!event.target.classList.contains('selected') ){
+                count++;
+                total_price=per*count;
+
+                event.target.className="selected";
+                document.getElementById("count").innerText=count;
+                document.getElementById("total").innerText=total_price;
+
+            }
+        })
+    }      
+
+
+    </script>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   body{
+    text-align: center;
+    background-color: black;
+   }
+   .a{
+    text-align: center;
+    position:relative;
+    color: aqua;
+    left: 23em;
+    top: 2em;
+    font-size: 25px;
+   }
+   h1{
+    color: aquamarine;
+   }
+   .c,.z,.x{
+    position: relative;
+    background-color: rgb(43, 121, 189);
+    margin: 20px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 7px;
+    left: -40em;
+    top: 1.8em;
+    cursor: pointer;
+   }
+   
+   .z,.x{
+    position: relative;
+    top: 21em;
+    left: 2.5em;
+    text-decoration: none;
+    color: black;
+   }
+
+
+
+ 
+</style>
+<body>
+    <h1>Customer Details</h1>
+    <a href="./form_customer2.html" class="z">Next</a>
+    <a href="./website.html" class="x">HOME</a>
+
+    <div class="a">
+        <form  method="post" autocomplete="off" name="google-sheet"><table>
+      
+            <td><label for="">Name</label></td>
+            <td> <input type="text" name="Name">
+            </td>
+
+        </tr>
+            <tr>
+                <td> <label for="">Phone Number</label></td>
+                <td>  <input type="text" name="Phone" required="required"></td>
+            </tr>
+         
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input type="email" required="required" name="Email"></td>
+
+                </tr>
+                <tr>
+                    <td><label for="">Movie Name</label></td>
+                    <td><input type="text" required="required" name="Movie Name"></td>
+                </tr>
+                <tr>
+               <td> <label for="">No. Of Tickets</label></td>
+               <td><input type="number" required="required" name="ticket"></td>
+
+                </tr>
+             
+
+           
+        </table>
+        <input type="submit" value="Submit" class="c">
+        <input type="reset" value="Reset" class="c">
+    </form>
+</div>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzz2skZZfJmR-wQ8bVX5udkYxCmbTBDcfKYuNYRFDuyschrbOoikeQ5U17fVIJrDbw/exec';
+    const form = document.forms['google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thanks for Submit Your details please click on Next"))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to Movie Ticket Booking</h1>
+    <button id="rzp-button1">Pay</button>
+    <a href="./website.html">Home</a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br>
+    <hr>
+    <h3>Contact us</h3>
+    <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202110/insta_1.jpg?size=690:388" height="30px">
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+var options = {
+    "key": "rzp_test_ZOt9n5CnF4YG2Z", // Enter the Key ID generated from the Dashboard
+    "amount": "50000", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+    "currency": "INR",
+    "name": "Movie Ticket", //your business name
+    "description": "Test Transaction",
+    "image": "",
+     //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+   
+    "prefill": { //We recommend using the prefill parameter to auto-fill customer's contact information especially their phone number
+        "name": "", //your customer's name
+        "email": "",
+        "contact": "" //Provide the customer's phone number for better conversion rates 
+    },
+    "notes": {
+        "address": "Razorpay Corporate Office"
+    },
+    "theme": {
+        "color":  "#CE2B66"
+    }
+};
+var rzp1 = new Razorpay(options);
+document.getElementById('rzp-button1').onclick = function(e){
+    rzp1.open();
+    e.preventDefault();
+}
+</script>
+</body>
+</html>
