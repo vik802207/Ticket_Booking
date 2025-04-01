@@ -68,6 +68,8 @@ A confirmation email is sent automatically to the user.
 
 ## 📸 Screenshots
 
+![Booking Page](https://github.com/vik802207/Ticket_Booking/image/Screenshot (324).png)
+
 Add relevant screenshots of the homepage, booking page, and confirmation page.
 
 ## 🛠️ Future Enhancements
