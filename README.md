@@ -29,14 +29,14 @@ Payment Gateway: Razorpay
 📂 Project Structure
 
 📂 movie-ticket-booking
-├── 📁 assets          # Images, icons, and CSS files
-├── 📁 js              # JavaScript files
-├── 📁 php            # PHP backend files
-├── 📜 website.html      # Homepage
-├── 📜 booking.html    # Ticket booking page
-├── 📜 success.php     # Payment success handler
-├── 📜 config.php      # Configuration file for payments
-└── 📜 README.md       # Project documentation
+├── 📁 assets          
+├── 📁 js               
+├── 📁 php             
+├── 📜 website.html       
+├── 📜 payment.html    
+├── 📜 success.php      
+├── 📜 config.php   
+└── 📜 README.md     
 
 ## 📌 Installation & Setup
 
@@ -91,8 +91,7 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 
 ## 📞 Contact
 
-For any queries, reach out to me at your-email@example.com
-
+For any queries, reach out to me at vikashg802207@gmail.com
 ## 📜 License
 
 This project is open-source and available under the MIT License.
