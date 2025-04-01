@@ -67,8 +67,12 @@ Booking details are stored in Google Sheets using Zapier.
 A confirmation email is sent automatically to the user.
 
 ## 📸 Screenshots
-
-![Booking Page](https://github.com/vik802207/Ticket_Booking/image/Screenshot (324).png)
+![Alt text](https://github.com/vik802207/Ticket_Booking/blob/main/image/Screenshot%20(324).png?raw=true)
+![Alt text](https://github.com/vik802207/Ticket_Booking/blob/main/image/Screenshot%20(325).png?raw=true)
+![Alt text](https://github.com/vik802207/Ticket_Booking/blob/main/image/Screenshot%20(326).png?raw=true)
+![Alt text](https://github.com/vik802207/Ticket_Booking/blob/main/image/Screenshot%20(328).png?raw=true)
+![Alt text](https://github.com/vik802207/Ticket_Booking/blob/main/image/Screenshot%20(331).png?raw=true)
+![Alt text](https://github.com/vik802207/Ticket_Booking/blob/main/image/Screenshot%20(332).png?raw=true)
 
 Add relevant screenshots of the homepage, booking page, and confirmation page.
 
