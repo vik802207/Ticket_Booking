@@ -74,7 +74,8 @@ A confirmation email is sent automatically to the user.
 ![Alt text](https://github.com/vik802207/Ticket_Booking/blob/main/image/Screenshot%20(331).png?raw=true)
 ![Alt text](https://github.com/vik802207/Ticket_Booking/blob/main/image/Screenshot%20(332).png?raw=true)
 
-DATABASE Google Sheet
+## DATABASE Google Sheet
+
 ![Alt text](https://github.com/vik802207/Ticket_Booking/blob/main/image/Screenshot%20(333).png?raw=true)
 
 ## 🛠️ Future Enhancements
