@@ -18,13 +18,11 @@ The Online Movie Ticket Booking System is a web-based platform that allows users
 
 ## 🛠️ Tech Stack
 
-Frontend: HTML, CSS, JavaScript
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** PHP  
+- **Database:** Google Sheets (via Zapier Integration)  
+- **Payment Gateway:** Razorpay  
 
-Backend: PHP
-
-Database: Google Sheets (via Zapier Integration)
-
-Payment Gateway: Razorpay
 
 📂 Project Structure
 
