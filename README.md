@@ -24,7 +24,7 @@ The Online Movie Ticket Booking System is a web-based platform that allows users
 - **Payment Gateway:** Razorpay  
 
 
-📂 Project Structure
+## 📂 Project Structure
 
 📂 movie-ticket-booking
 ├── 📁 assets          
