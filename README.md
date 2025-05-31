@@ -54,15 +54,12 @@ Deploy the project on a hosting server or test locally using localhost.
 
 ## 🔧 How It Works
 
-Users visit the website and browse available movies.
+- Users visit the website and browse available movies  
+- They select their preferred showtime and seats  
+- Payment is processed securely via Razorpay  
+- Booking details are stored in Google Sheets using Zapier  
+- A confirmation email is sent automatically to the user  
 
-They select their preferred showtime and seats.
-
-Payment is processed securely via Razorpay.
-
-Booking details are stored in Google Sheets using Zapier.
-
-A confirmation email is sent automatically to the user.
 
 ## 📸 Screenshots
 ![Alt text](https://github.com/vik802207/Ticket_Booking/blob/main/image/Screenshot%20(324).png?raw=true)
